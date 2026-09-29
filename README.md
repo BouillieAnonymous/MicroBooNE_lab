@@ -42,5 +42,5 @@ An example of a simple NN in action for interest of the reader.
 - Download this repository either via git or by pressing the green "Code" button and then "Download ZIP".
 - Download the data required from the above mentioned 'livemanchesterac' link. 
 - Extract the *uboone_lab_student_copy* folder into your local OneDrive folder.
-- Extract the *data.zip* folder into *uboone_lab_student_copy/data/* folder.
+- Extract the six files inside *data.zip/true_data/* directly into *uboone_lab_student_copy/data/* (without keeping the *true_data* subfolder).
 - Begin reading through the rest of the lab script, good luck!
