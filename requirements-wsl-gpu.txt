@@ -1,11 +1,13 @@
-# Install inside the NVIDIA TensorFlow 25.02 container.
-# TensorFlow 2.17.0, CUDA 12.8, and JupyterLab 4.3.4 are supplied by the image.
+# Latest compatible analysis libraries for the NVIDIA TensorFlow 25.02 image.
+# Keep NumPy below 2.0 for this TensorFlow/CUDA stack.
 numpy==1.26.4
-pandas==2.2.3
-scipy==1.15.2
-scikit-learn==1.6.1
-matplotlib==3.10.1
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
 seaborn==0.13.2
-h5py==3.12.1
+h5py==3.16.0
+jupyterlab==4.6.4
+ipykernel==7.3.0
 ipympl==0.10.0
 ipywidgets==8.1.9

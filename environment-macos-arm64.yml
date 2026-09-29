@@ -2,5 +2,5 @@ name: microboone-macos-arm64
 channels:
   - conda-forge
 dependencies:
-  - python=3.10.12
+  - python=3.12.13
   - pip
