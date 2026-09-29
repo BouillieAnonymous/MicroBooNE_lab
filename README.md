@@ -37,15 +37,18 @@ The original neural-network example and a TensorFlow 2 eager-mode copy for GPU b
 
 ### REFERENCE ENVIRONMENT (WINDOWS CPU)
 
-Use Python 3.13.15 with the current stable package versions in `requirements.txt`. The notebooks were authored with older Python and library versions; the Keras example has been updated to public TensorFlow Keras APIs and eager execution to work with current TensorFlow and GPU backends. The analysis flow and data remain unchanged.
+Use Python 3.13 with the current stable package versions in `requirements.txt`. The notebooks were authored with older Python and library versions; the Keras example has been updated to public TensorFlow Keras APIs and eager execution to work with current TensorFlow and GPU backends. The analysis flow and data remain unchanged.
 
-Create and activate the environment, then install the pinned packages:
+Install `uv` if needed, then create and activate the project-local environment and install the pinned packages:
 
 ```powershell
-conda env create -f environment.yml
-conda activate microboone
-python -m pip install -r requirements.txt
-python -m ipykernel install --user --name microboone --display-name "Python (MicroBooNE)"
+# Run this once if uv is not installed yet.
+winget install --id astral-sh.uv -e
+uv python install 3.13
+uv venv --python 3.13 .venv
+.venv\Scripts\Activate.ps1
+uv pip install -r requirements.txt
+python -m ipykernel install --prefix .venv --name microboone --display-name "Python (MicroBooNE)"
 jupyter lab
 ```
 

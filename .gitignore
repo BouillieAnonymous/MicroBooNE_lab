@@ -1,2 +1,5 @@
 data/bnb_run3_mc_larcv.h5
 data/
+.venv/
+.python/
+.ipynb_checkpoints/
