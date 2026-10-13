@@ -3,3 +3,7 @@ data/
 .venv/
 .python/
 .ipynb_checkpoints/
+
+# Ignore risk assessment files and directories anywhere in this repository.
+**/*[Rr]isk*[Aa]ssessment*/
+**/*[Rr]isk*[Aa]ssessment*

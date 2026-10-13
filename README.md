@@ -24,6 +24,9 @@ Template for student's usage throughout the lab.
 #### MicroBooNE_Y3_Labbook.pdf
 PDF including all information needed to complete this lab.
 
+#### Reference paper
+User-provided paper on CNN-based particle identification: [MicroBooNE CNN particle identification (2021)](references/MicroBooNE_CNN_particle_identification_2021.pdf).
+
 
 #### Neutrino_functions.py
 Useful functions that are used throughout the lab.
