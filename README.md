@@ -94,3 +94,7 @@ Use either Keras example notebook for Metal acceleration. Both now use public Te
 - Extract the *uboone_lab_student_copy* folder into your local OneDrive folder.
 - Extract the six files inside *data.zip/true_data/* directly into *uboone_lab_student_copy/data/* (without keeping the *true_data* subfolder).
 - Begin reading through the rest of the lab script, good luck!
+
+### Weekly progress
+
+- [Week 4: selection cuts, sample quality and initial oscillation checks](docs/week-04.md)

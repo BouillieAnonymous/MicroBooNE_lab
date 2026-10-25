@@ -7,3 +7,7 @@ data/
 # Ignore risk assessment files and directories anywhere in this repository.
 **/*[Rr]isk*[Aa]ssessment*/
 **/*[Rr]isk*[Aa]ssessment*
+
+# Python bytecode caches.
+__pycache__/
+*.py[cod]
